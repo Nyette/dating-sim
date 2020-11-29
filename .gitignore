@@ -1,3 +1,9 @@
+.vscode/
+game/cache/
+game/dating-sim-ui/
+log.txt
+traceback.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
