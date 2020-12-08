@@ -1,6 +1,10 @@
+# VSCode
 .vscode/
+
+# Ren'Py
 game/cache/
 game/dating-sim-ui/
+game/saves/*.save
 log.txt
 traceback.txt
 
