@@ -1,5 +1,7 @@
 # Dating Sim
 
+Date the ~~archetype~~ girl of your dreams! :sparkles:
+
 ## Built With
 
 * [Ren'Py](https://www.renpy.org/)
