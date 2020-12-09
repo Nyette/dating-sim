@@ -4,8 +4,7 @@ Date the ~~archetype~~ girl of your dreams! :sparkles:
 
 ## Built With
 
-* [Ren'Py](https://www.renpy.org/)
-* [Ren'Py Image Definer](https://github.com/koroshiya/renpy-image-definer)
+[Ren'Py](https://www.renpy.org/)
 
 ## Assets
 
