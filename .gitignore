@@ -4,7 +4,7 @@
 # Ren'Py
 game/cache/
 game/dating-sim-ui/
-game/saves/*.save
+game/saves/
 errors.txt
 log.txt
 traceback.txt
