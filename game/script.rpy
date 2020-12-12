@@ -25,4 +25,6 @@ label start:
 
     "I don't like this at all."
 
+    c "My cat..."
+
     return
