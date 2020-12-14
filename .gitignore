@@ -2,9 +2,12 @@
 .vscode/
 
 # Ren'Py
+game/*.rpyc
 game/cache/
 game/dating-sim-ui/
 game/saves/
+
+# Ren'Py Logs
 errors.txt
 log.txt
 traceback.txt
