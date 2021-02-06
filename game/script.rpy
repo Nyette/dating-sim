@@ -1,37 +1,34 @@
 ﻿init python:
+    config.automatic_images = [ '/' , '_' , ' ' ]
+    config.main_menu_music = "music/destiny.mp3"
 
-    # Player Input
-    # my_name = renpy.input("What is your name?")
-    # study_choice = renpy.input("What are you studying?")
-    # my_name = my_name.strip()
-    # study_choice = study_choice.strip()
-    # if not my_name:
-    #     my_name = "Kevin"
-    # if not study_choice:
-    #     study_choice = "computer science"
+# Player
+default my_name = "Kevin"
+default my_major = "computer science"
 
-    # Default
-    my_name = "Kevin"
-    study_choice = "computer science"
+# Cat
+default cat_name = "???"
+default cat_appearance = "pink hair and unusually large breasts"
+default cat_major = "biology"
 
-    # Girls
-    girl1_name = "Ana"
-    girl1_description = "pink hair and unusually large breasts"
-    girl1_study_choice = "political science"
+# Fish
+default fish_name = "???"
 
-    girl2_name = "Beatrice"
-    
-    # Locations
-    town_name = "Derlutgate"
-    college_name = "Tetra College"
+# Locations
+default town_name = "Derlutgate"
+default college_name = "Tetra College"
 
 # Characters
 define me = Character("[my_name]", color="#008080")
-define g1 = Character("[girl1_name]", color="#008080")
-define g2 = Character("[girl2_name]", color="#008080")
+define cat = Character("[cat_name]", color="#008080")
+define fish = Character("[fish_name]", color="#008080")
 
 label start:
 
     call opening_scene
+
+    "- END of DEMO -"
+
+    "Stay tuned!"
 
     return
